@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.blocks {
+    max-width: 762px;
+    margin: 0px auto;
+}
+
+.blocks__item {
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0,0,0, 0.2);
+    margin-bottom: 10px;
+
+}
+
+.blocks__heading {
+    display: block;
+    background: #000;
+    color: blue;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.text {
+    padding: 10px;
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.block {
+    display: block;
+    transition: all 1s ease;
+}
+
+.question {
+    display: block;
+    margin: 0px;
+    padding: 30px 10px;
+}
+
+.number {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.fas {
+    color: #fff;
+    float: right;
+    margin-right: 30px;
+}
